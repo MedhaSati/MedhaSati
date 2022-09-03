@@ -36,7 +36,11 @@ This network uses 138M parameters.
 
 ## ResNet
 
-Residual blocks allows different layer to access the activations from a previous layers. When there are multiple layer, theres a chance that the performance of the network will deteroit. Using a residual block maintains the accuracy or might also increase the accuracy. Training error in a plain network increases after a certain value bt the training error is low for a ResNet.
+Residual blocks allows different layer to access the activations from a previous layers. When there are multiple layer, theres a chance that the performance of the network will deteroit. Using a residual block maintains the accuracy or might also increase the accuracy. 
+
+![image](https://user-images.githubusercontent.com/111455150/188261011-af02d20e-a2fc-4660-960a-9dfb66fcb00b.png)
+
+Training error in a plain network increases after a certain value bt the training error is low for a ResNet.
 
 ![image](https://user-images.githubusercontent.com/111455150/188260022-44c487fa-c651-46a2-ae72-f1d68cdcfd8c.png)
 
